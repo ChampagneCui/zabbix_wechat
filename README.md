@@ -1,16 +1,17 @@
 # zabbix_wechat
 zabbix  基于wechat的图文报警
 
-报警媒体类型设置：
+##### 报警媒体类型设置：
 * 参数1：{ALERT.SENDTO}
 * 参数2：{ALERT.SUBJECT}
 * 参数3：{ALERT.MESSAGE}
-动作设置：
-* 默认标题：
+
+##### 动作设置：
+###### 默认标题：
 ```
 故障发生--服务器:{HOSTNAME1}:{TRIGGER.NAME}
 ```
-* 消息内容：
+###### 消息内容：
 ```
 主机名:{HOSTNAME1}<br>
 主机IP:{IPADDRESS}<br>
